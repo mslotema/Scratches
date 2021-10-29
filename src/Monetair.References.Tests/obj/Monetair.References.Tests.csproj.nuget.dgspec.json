@@ -1,0 +1,144 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/melle/code/Scratches/src/Monetair.References.Tests/Monetair.References.Tests.csproj": {}
+  },
+  "projects": {
+    "/home/melle/code/Scratches/src/Monetair.References.Tests/Monetair.References.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melle/code/Scratches/src/Monetair.References.Tests/Monetair.References.Tests.csproj",
+        "projectName": "Monetair.References.Tests",
+        "projectPath": "/home/melle/code/Scratches/src/Monetair.References.Tests/Monetair.References.Tests.csproj",
+        "packagesPath": "/home/melle/.nuget/packages/",
+        "outputPath": "/home/melle/code/Scratches/src/Monetair.References.Tests/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melle/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "/home/melle/code/Scratches/src/Monetair.References/Monetair.References.csproj": {
+                "projectPath": "/home/melle/code/Scratches/src/Monetair.References/Monetair.References.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.9.4, )"
+            },
+            "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[3.0.2, )"
+            },
+            "xunit": {
+              "target": "Package",
+              "version": "[2.4.1, )"
+            },
+            "xunit.runner.visualstudio": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.4.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/melle/code/Scratches/src/Monetair.References/Monetair.References.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/melle/code/Scratches/src/Monetair.References/Monetair.References.csproj",
+        "projectName": "Monetair.References",
+        "projectPath": "/home/melle/code/Scratches/src/Monetair.References/Monetair.References.csproj",
+        "packagesPath": "/home/melle/.nuget/packages/",
+        "outputPath": "/home/melle/code/Scratches/src/Monetair.References/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/melle/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
