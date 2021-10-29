@@ -14,7 +14,6 @@
 
 # Executables and libraries (+symbols)
 *.dll
-*.pdb
 *.exe
 
 # Build results
@@ -55,7 +54,6 @@ x64/
 *.tlh
 *.tmp
 *.tmp_proj
-*.log
 *.vspscc
 *.vssscc
 .builds
