@@ -58,7 +58,7 @@ namespace Monetair.References
         {
             lock (@lock)
             {
-                Thread.Sleep(1); // rudimentair:  nooit dezelfde milliseconde opleveren als de vorige keer
+                Thread.Sleep(1); // prevent reusing the same clock tick
                 var now = DateTime.Now;
 
                 return CreateValue(now);

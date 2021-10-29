@@ -12,6 +12,11 @@
 *.user
 *.sln.docstates
 
+# Executables and libraries (+symbols)
+*.dll
+*.pdb
+*.exe
+
 # Build results
 [Dd]ebug/
 [Rr]elease/
