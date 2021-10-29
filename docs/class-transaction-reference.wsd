@@ -1,0 +1,30 @@
+@startuml class-transaction-reference
+
+interface ITransactionReference {
+    --
+    string Create();
+}
+
+abstract class AbstractReference #Snow {
+    // formaat van de waarde
+    --
+    #string Identity()
+    #CreateValue(DateTime moment)
+}
+
+class TransactionReferenceOptions #Snow {
+    --
+    string Identity
+}
+
+class TransactionReference {
+    ctor(TransactionReferenceOptions options)
+    --
+    string Create()
+}
+
+ITransactionReference <|-- TransactionReference
+AbstractReference <-left- TransactionReference
+TransactionReference -left- TransactionReferenceOptions
+
+@enduml
