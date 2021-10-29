@@ -6,7 +6,7 @@ using Monetair.References.Tests.Uniqueness.Helpers;
 using Xunit;
 using Xunit.Abstractions;
 
-namespace Monetair.References.Tests.Uniqueness
+namespace Monetair.References.Tests
 {
     public class UniqueThreadedTransactionReferenceTests
     {

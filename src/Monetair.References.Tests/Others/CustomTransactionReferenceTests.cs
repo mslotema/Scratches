@@ -5,7 +5,7 @@ using Xunit;
 // ReSharper disable once CheckNamespace
 namespace Monetair.References.Tests
 {
-    public class UnitTest1
+    public class CustomTransactionReferenceTests
     {
         [Fact]
         public void TransactionReference_IdentityEmpty_FullYear_ReturnValue()

@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monetair.References.Tests",
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monetair.References", "Monetair.References\Monetair.References.csproj", "{CF46C13C-E8F3-4EF8-B2ED-D445FC1E0DD8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. TransactionReferences", "1. TransactionReferences", "{85B3024E-EA82-42AF-8D37-3A27C2DC56B5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{CF46C13C-E8F3-4EF8-B2ED-D445FC1E0DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF46C13C-E8F3-4EF8-B2ED-D445FC1E0DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF46C13C-E8F3-4EF8-B2ED-D445FC1E0DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{CF46C13C-E8F3-4EF8-B2ED-D445FC1E0DD8} = {85B3024E-EA82-42AF-8D37-3A27C2DC56B5}
+		{C2EF11AE-6E2A-4263-915F-00AED12CB417} = {85B3024E-EA82-42AF-8D37-3A27C2DC56B5}
 	EndGlobalSection
 EndGlobal
