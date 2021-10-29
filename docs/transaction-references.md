@@ -151,5 +151,11 @@ public override string Create()
 
 In principe is de transaction reference een _case sensitive_ waarde. Voor hexadecimaal maakt dat uit (hoofdletters de voorkeur).
 
+Als alternatief voor ```Thread.Sleep``` dit ook geprobeerd:
 
+```csharp
+    SpinWait.SpinUntil(()=> false, 1);
+```
+
+Dat was ruim 4x zo traag (4s+ in plaats van net iets over 1s voor 1000 waarden).
 
