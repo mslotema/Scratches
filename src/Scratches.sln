@@ -6,6 +6,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monetair.References", "Mone
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1. TransactionReferences", "1. TransactionReferences", "{85B3024E-EA82-42AF-8D37-3A27C2DC56B5}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2. Schedule", "2. Schedule", "{28EEC43A-72DA-42C9-B87B-5DCA331E0D7A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monetair.Schedules", "Monetair.Schedules\Monetair.Schedules.csproj", "{BA8B5056-24FF-482F-900A-0A7293AB536E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Monetair.Schedules.Tests", "Monetair.Schedules.Tests\Monetair.Schedules.Tests.csproj", "{A84C372E-EB30-4E66-A940-039A5A844E30}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,9 +26,19 @@ Global
 		{CF46C13C-E8F3-4EF8-B2ED-D445FC1E0DD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF46C13C-E8F3-4EF8-B2ED-D445FC1E0DD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF46C13C-E8F3-4EF8-B2ED-D445FC1E0DD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BA8B5056-24FF-482F-900A-0A7293AB536E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA8B5056-24FF-482F-900A-0A7293AB536E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA8B5056-24FF-482F-900A-0A7293AB536E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA8B5056-24FF-482F-900A-0A7293AB536E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A84C372E-EB30-4E66-A940-039A5A844E30}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A84C372E-EB30-4E66-A940-039A5A844E30}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A84C372E-EB30-4E66-A940-039A5A844E30}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A84C372E-EB30-4E66-A940-039A5A844E30}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{CF46C13C-E8F3-4EF8-B2ED-D445FC1E0DD8} = {85B3024E-EA82-42AF-8D37-3A27C2DC56B5}
 		{C2EF11AE-6E2A-4263-915F-00AED12CB417} = {85B3024E-EA82-42AF-8D37-3A27C2DC56B5}
+		{BA8B5056-24FF-482F-900A-0A7293AB536E} = {28EEC43A-72DA-42C9-B87B-5DCA331E0D7A}
+		{A84C372E-EB30-4E66-A940-039A5A844E30} = {28EEC43A-72DA-42C9-B87B-5DCA331E0D7A}
 	EndGlobalSection
 EndGlobal
