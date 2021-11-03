@@ -12,11 +12,4 @@ namespace Monetair
 
         DateTime ValueDate { get; }
     }
-
-    public class TimeProvider : ITimeProvider
-    {
-        public TimeSpan CurrentTime => DateTime.Now.TimeOfDay;
-
-        public DateTime ValueDate => DateTime.Today;
-    }
 }
