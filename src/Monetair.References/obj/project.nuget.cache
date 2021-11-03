@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "gBg77kKp5dKVf7aTIPztr66CqVCXoYNEW5ZASAlfh2Bmopi7vefDTK+BoqbfTHPx4k16Tzsfb8+LBhzYtGjmdw==",
+  "dgSpecHash": "9up2r9LtmI0hqLBR5vF2+nfSc2y/2pGPsrVFRfFTnsZbeFJo1U1W5Z6rTzNiP9jqyzqBZcy5S5PZyNDwrJ7dFg==",
   "success": true,
-  "projectFilePath": "/home/melle/code/Scratches/src/Monetair.References/Monetair.References.csproj",
+  "projectFilePath": "/Users/mslotema/Code/Scratches/src/Monetair.References/Monetair.References.csproj",
   "expectedPackageFiles": [
-    "/home/melle/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
-    "/home/melle/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
-    "/home/melle/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+    "/Users/mslotema/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/5.0.0/microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "/Users/mslotema/.nuget/packages/microsoft.extensions.options/5.0.0/microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "/Users/mslotema/.nuget/packages/microsoft.extensions.primitives/5.0.0/microsoft.extensions.primitives.5.0.0.nupkg.sha512"
   ],
   "logs": []
 }

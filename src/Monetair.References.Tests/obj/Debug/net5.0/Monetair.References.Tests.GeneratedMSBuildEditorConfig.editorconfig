@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Monetair.References.Tests
-build_property.ProjectDir = /home/melle/code/Scratches/src/Monetair.References.Tests/
+build_property.ProjectDir = /Users/mslotema/Code/Scratches/src/Monetair.References.Tests/

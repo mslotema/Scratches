@@ -1,18 +1,34 @@
 using System;
+using System.Collections.Generic;
+using Monetair.Schedules.Internal;
 
 // ReSharper disable once CheckNamespace
 namespace Monetair.Schedules
 {
-    public class TimeTable
+    /// <summary>
+    /// Time Table for type <param name="TPhase"/>.
+    /// It contains the start times for each phase of the schedule, in order
+    /// <para>
+    ///   The order is determined by the TPhase enum
+    /// </para>
+    /// </summary>
+    /// <typeparam name="TPhase"></typeparam>
+    public class TimeTable<TPhase>
+        where TPhase : Enum
     {
-        public TimeSpan DayPhase1 { get; set; }
+        public Dictionary<TPhase, TimeSpan> StartTimes { get; set; } = new Dictionary<TPhase, TimeSpan>();
 
-        public TimeSpan DayPhase2 { get; set; }
+        // fluent
+        public TimeTable<TPhase> Add(TPhase phase, string startTime)
+        {
+            return Add(phase, startTime.ToTime());
+        }
 
-        public TimeSpan EndPhase1 { get; set; }
+        public TimeTable<TPhase> Add(TPhase phase, TimeSpan startTime)
+        {
+            StartTimes.Add(phase, startTime);
 
-        public TimeSpan EndPhase2 { get; set; }
-
-        public TimeSpan NightPhase { get; set; }
+            return this;
+        }
     }
 }

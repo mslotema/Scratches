@@ -1,7 +1,7 @@
 using System;
 
 // ReSharper disable once CheckNamespace
-namespace Monetair.Schedules
+namespace Monetair
 {
     /// <summary>
     /// Stub TimeProvider interface
