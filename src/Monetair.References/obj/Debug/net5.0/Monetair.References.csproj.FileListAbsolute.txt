@@ -10,3 +10,15 @@
 /Users/mslotema/Code/Scratches/src/Monetair.References/obj/Debug/net5.0/ref/Monetair.References.dll
 /Users/mslotema/Code/Scratches/src/Monetair.References/obj/Debug/net5.0/Monetair.References.pdb
 /Users/mslotema/Code/Scratches/src/Monetair.References/obj/Debug/net5.0/Monetair.References.csproj.AssemblyReference.cache
+/home/melle/code/Scratches/src/Monetair.References/bin/Debug/net5.0/Monetair.References.deps.json
+/home/melle/code/Scratches/src/Monetair.References/bin/Debug/net5.0/Monetair.References.dll
+/home/melle/code/Scratches/src/Monetair.References/bin/Debug/net5.0/ref/Monetair.References.dll
+/home/melle/code/Scratches/src/Monetair.References/bin/Debug/net5.0/Monetair.References.pdb
+/home/melle/code/Scratches/src/Monetair.References/obj/Debug/net5.0/Monetair.References.csproj.AssemblyReference.cache
+/home/melle/code/Scratches/src/Monetair.References/obj/Debug/net5.0/Monetair.References.GeneratedMSBuildEditorConfig.editorconfig
+/home/melle/code/Scratches/src/Monetair.References/obj/Debug/net5.0/Monetair.References.AssemblyInfoInputs.cache
+/home/melle/code/Scratches/src/Monetair.References/obj/Debug/net5.0/Monetair.References.AssemblyInfo.cs
+/home/melle/code/Scratches/src/Monetair.References/obj/Debug/net5.0/Monetair.References.csproj.CoreCompileInputs.cache
+/home/melle/code/Scratches/src/Monetair.References/obj/Debug/net5.0/Monetair.References.dll
+/home/melle/code/Scratches/src/Monetair.References/obj/Debug/net5.0/ref/Monetair.References.dll
+/home/melle/code/Scratches/src/Monetair.References/obj/Debug/net5.0/Monetair.References.pdb

@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "/Users/mslotema/Code/Scratches/src/Monetair.References/Monetair.References.csproj": {}
+    "/home/melle/code/Scratches/src/Monetair.References/Monetair.References.csproj": {}
   },
   "projects": {
-    "/Users/mslotema/Code/Scratches/src/Monetair.References/Monetair.References.csproj": {
+    "/home/melle/code/Scratches/src/Monetair.References/Monetair.References.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/mslotema/Code/Scratches/src/Monetair.References/Monetair.References.csproj",
+        "projectUniqueName": "/home/melle/code/Scratches/src/Monetair.References/Monetair.References.csproj",
         "projectName": "Monetair.References",
-        "projectPath": "/Users/mslotema/Code/Scratches/src/Monetair.References/Monetair.References.csproj",
-        "packagesPath": "/Users/mslotema/.nuget/packages/",
-        "outputPath": "/Users/mslotema/Code/Scratches/src/Monetair.References/obj/",
+        "projectPath": "/home/melle/code/Scratches/src/Monetair.References/Monetair.References.csproj",
+        "packagesPath": "/home/melle/.nuget/packages/",
+        "outputPath": "/home/melle/code/Scratches/src/Monetair.References/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/mslotema/.nuget/NuGet/NuGet.Config"
+          "/home/melle/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net5.0"
+          "net6.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net5.0": {
-            "targetAlias": "net5.0",
+          "net6.0": {
+            "targetAlias": "net6.0",
             "projectReferences": {}
           }
         },
@@ -35,12 +35,12 @@
         }
       },
       "frameworks": {
-        "net5.0": {
-          "targetAlias": "net5.0",
+        "net6.0": {
+          "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.Extensions.Options": {
               "target": "Package",
-              "version": "[5.0.0, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -58,7 +58,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.402/RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
         }
       }
     }
